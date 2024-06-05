@@ -1,0 +1,21 @@
+Aula 1
+
+Conexão java com banco de dados mySQL
+
+Baixado o banco comunity do site do mysql / workbanch para utilização
+
+criado novo projeto no eclipse
+
+
+Criado arquivo db.properties estruturando dados do banco de dados login senha e url com usso de ssl false.
+
+
+Criado pacote db:
+		
+		criado classeDbExcpetion para tratar as excessões dos erros de conectividade do banco.
+		Criado clase DB onde tem os métodos de conectividade  para testar a conecão como banco de dados.	
+			
+
+Criado pacote aplication
+
+		criado classe Program onde é realizado a execução e chamada dos métodos para testes de conectividade
