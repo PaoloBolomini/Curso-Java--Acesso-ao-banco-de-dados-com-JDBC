@@ -1,0 +1,6 @@
+criado uma nova classe no pacote DB  DbIntegrityException para gerar exception personalizadas para mensagens de erro do banco de dados referente a integridade de dados
+
+realizado a alteração do comando armazenado no preparestatement para armazenar comando delete
+
+sem mudanças significativas, apenas alterado a condição do catch para gerar a mensagem personalizada do erro sem o stack inteiro utilizando o método DbIntegrityException
+

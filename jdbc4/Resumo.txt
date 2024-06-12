@@ -1,0 +1,5 @@
+Comndo update utilizado no prepareStatement
+
+método execute update derivado da interface PreparedStatement
+
+Nenhuma alteração significativa a não ser o comando que ser aexecutado no banco e armazenado na variavel st

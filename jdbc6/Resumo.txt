@@ -1,0 +1,14 @@
+conn.setAutoCommit(false);
+
+Comando passa a informação que os comandos executados na classe providos da comunicação com o banco não devem realizar autocommit pela aplicação, deve ser definido manualmente na aplicação o commit.
+
+conn.commit();
+
+comando para realizar commit manualmente pela aplicação.
+
+caso ocorrer algum erro durante a execução dos comandos sql para que os registros não sejam alterados nas tabelas se gerado uma exception é realizado o seguinte comando dentro da exception:
+
+conn.rollback();
+
+para voltar as alterações realizadas
+
