@@ -1,0 +1,12 @@
+reaproveitado as variaveis conection e preparedStatement
+
+criado váriavel sdf derivada da classe SimpleDateFormat para converter string e formato date para inserir valor date no banco.
+
+realizado um comando sql dentro do preparestatement() utilizado return_generate_keys para retornar no método  o valor de linhas afetadas.
+
+logo abaixo é criado a variavel rowsAffected para realizar validações na condição do if para gerar retorno em tela no console já que o retorno da intrução não é um select e sim um insert.
+
+dessa forma foi criado a váriavel resultset e passado o valor pela váriavel chamando o método
+getGeneratedKeys() da váriavel st.
+
+gerado exception para SQLException ParseException

@@ -1,0 +1,19 @@
+        import pacote Connection
+
+        Declarado variaveis Connection Statement e ResultSet
+
+	Variavel conn utiliza o método de conexão criado no pcote DB para dizer se a conexão         esta ok
+
+	St variavel do tipo Statement derivado do pacote conenection também.
+	através da variavel conn é utilizado o método createStatement() para para passar a 	        informação que essa váriavel vai ser responsavel por passar instruções ao banco de 	        dados.
+
+	atráves da variavel st é declarado a consulta que sera enviada ao banco e copiado a 	        informação para a variavel rs
+
+	é realizado um while para percorer todos os valores e mostrar no console 
+
+	try catch básico para gerar exception
+
+	métodos de finalização do statement e conexão com o banco 
+
+
+No pacote db na clase DB implementado métodos para fechamento do statement e resultset para não ter perigo de esgotar mémoria na aplicação e banco de dados
